@@ -11,7 +11,7 @@ class Question
         puts @ans
         user_ans = gets.chomp.to_i
         puts user_ans
-        puts user_ans == @ans
+        # puts user_ans == @ans
         if user_ans == @ans
             puts "Yes, you're correct"
         else
